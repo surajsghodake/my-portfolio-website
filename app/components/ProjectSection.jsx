@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "E-commerce website",
     description:
-      "Our website is your gateway to a diverse marketplace where convenience meets choice. Dive into an expansive collection of products ranging from fashion and electronics to home goods and beyond. Our user-friendly interface ensures easy navigation through an array of high-quality items. we aim to make your online shopping experience seamless and enjoyable. Join our community and explore a world of possibilities right at your fingertips",
+      "Our website is your gateway to a diverse marketplace where convenience meets choice. Dive into an expansive collection of products ranging from fashion and electronics to home goods and beyond. Our user-friendly interface ensures easy navigation through an array of high-quality items.",
     image: "/images/projects/img2.jpeg",
     tag: ["All", "Web"],
     gitUrl:
@@ -36,31 +36,11 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
-    title: "News App",
-    description:
-      "Stages of advanced web development and able to effectively self-manage during independent projects, as well as collaborate in a productive teamwork. I have always had a knack for technology and working with computers.",
-    image: "/images/projects/img4.jpeg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
     id: 5,
     title: "Blogs website",
     description:
       "Stages of advanced web development and able to effectively self-manage during independent projects, as well as collaborate in a productive teamwork. I have always had a knack for technology and working with computers.",
     image: "/images/projects/img5.jpeg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Markup.io",
-    description:
-      "Stages of advanced web development and able to effectively self-manage during independent projects, as well as collaborate in a productive teamwork. I have always had a knack for technology and working with computers.",
-    image: "/images/projects/img6.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -77,7 +57,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div id="projects" className="px-6 md:px-10 lg:px-20">
+    <div id="projects" className="px-6 md:px-10 lg:px-20 mb-10">
       <h2 className="text-white text-center text-4xl font-bold mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
